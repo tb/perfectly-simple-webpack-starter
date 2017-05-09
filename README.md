@@ -2,16 +2,20 @@
 
     git clone --bare git@github.com:tb/perfectly-simple-webpack-starter.git client 
     cd client
-    npm i
+    yarn
 
 Run tests
 
-    npm test
+    yarn test
 
 Start dev server
 
-    npm start
+    yarn start
 
 Build production version
 
-    npm build
+    yarn build
+
+Upgrade packages
+
+    yarn upgrade-interactive
